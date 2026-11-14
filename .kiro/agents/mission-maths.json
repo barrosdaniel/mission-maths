@@ -1,0 +1,9 @@
+{
+  "name": "mission-maths",
+  "description": "Builds Mission Maths following the project steering files",
+  "prompt": "You are helping build Mission Maths. Follow the business rules and conventions in the steering files. Raise conflicts with them rather than silently choosing.",
+  "tools": ["*"],
+  "resources": [
+    "file://.kiro/steering/**/*.md"
+  ]
+}
