@@ -46,7 +46,7 @@ cp .env.example .env
 ### Run the development server
 
 ```bash
-poetry run uvicorn app.main:app --reload
+poetry run uvicorn app.main:fastapi_app --reload
 ```
 
 API docs available at http://localhost:8000/docs.
